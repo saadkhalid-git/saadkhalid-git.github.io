@@ -1,0 +1,87 @@
+# Saad Khalid — portfolio site
+# https://saadkhalid-git.github.io/
+
+# Default: open to all well-behaved crawlers
+User-agent: *
+Allow: /
+
+# Google Search
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+# Microsoft Bing
+User-agent: Bingbot
+Allow: /
+
+# DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+
+# Apple (Spotlight / Siri suggestions)
+User-agent: Applebot
+Allow: /
+
+# ---- AI / LLM crawlers (explicit allow for 2026) ----
+# OpenAI / ChatGPT
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# Anthropic / Claude
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Google's separate AI training agent
+User-agent: Google-Extended
+Allow: /
+
+# Apple's AI agent
+User-agent: Applebot-Extended
+Allow: /
+
+# Meta AI
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+# Common Crawl (feeds most foundation models)
+User-agent: CCBot
+Allow: /
+
+# Cohere
+User-agent: cohere-ai
+Allow: /
+
+# ByteDance (Doubao / TikTok)
+User-agent: Bytespider
+Allow: /
+
+# Mistral
+User-agent: Mistral-AI
+Allow: /
+
+# Sitemap
+Sitemap: https://saadkhalid-git.github.io/sitemap.xml

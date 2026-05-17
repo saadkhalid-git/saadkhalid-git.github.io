@@ -1,0 +1,95 @@
+# Saad Khalid — Senior Product Engineer · AI & Full-Stack
+
+> Saad Khalid is a Senior Product Engineer at Intercom working on the Fin AI agent, and an R&D Specialist at SnT Luxembourg researching knowledge graphs and retrieval-augmented generation. He builds production AI features and applied LLM research systems. Based in Paris, France. Open to senior IC roles across the EU.
+
+## Identity
+
+- **Name:** Saad Khalid
+- **Role:** Senior Product Engineer
+- **Company:** Intercom (Fin AI agent)
+- **Concurrent research role:** R&D Specialist, SnT Luxembourg
+- **Based in:** Paris, France
+- **Open to:** roles across the EU, remote-friendly
+- **Email:** tosaadkhalid@gmail.com
+- **LinkedIn:** https://www.linkedin.com/in/saadkhalidgill/
+- **GitHub:** https://github.com/saadkhalid-git
+- **Website:** https://saadkhalid-git.github.io/
+
+## Current work (2025–present)
+
+### Intercom — Senior Product Engineer on Fin
+Building the Intercom Help Center Fin Agent integration. End-to-end product engineering across model integration, web surface, bug resolution, and performance.
+
+### SnT Luxembourg — R&D Specialist (two research tracks)
+
+**RTE Tommer — Common Crawl → Knowledge Graph pipeline**
+- Apache Airflow orchestrating a four-DAG flow:
+  1. Query the Common Crawl CDX index; filter and dedupe URLs
+  2. Fetch WARC/WET content; extract clean text
+  3. LLM extracts entity-relation triplets from each page
+  4. ToMMeR NER (Llama-3.2-based, `llm2ner/ToMMeR-Llama-3.2-{1B,3B}_L3_R64`) runs on top, with Wikidata QID mapping
+  5. Final stage (planned): ingest the graph into Neo4j
+- Containerised end to end; ToMMeR runs as its own FastAPI microservice.
+- Source data: Wikipedia subset of Common Crawl.
+
+**CEBI Luxembourg — fully-local DFMEA Q&A assistant**
+- Privacy-first Q&A over a CEBI Luxembourg DFMEA (Design Failure Mode and Effects Analysis) document for a FIAT temperature-sensor assembly.
+- All inference local via Ollama; no cloud calls; confidential automotive data stays on the host.
+- Multilingual: Mistral-Nemo (12B, IT/FR/EN); `nomic-embed-text` embeddings.
+- Multi-modal retrieval: SQLite + FTS5 (structured + full-text) and ChromaDB (semantic).
+- Streamlit chat UI with a query router that picks the right index per question.
+
+## Work history
+
+| Period | Company | Role | Location |
+|---|---|---|---|
+| Mar 2025 – present | Intercom | Senior Product Engineer (Fin) | Paris |
+| Mar 2025 – present | SnT Luxembourg | R&D Specialist | Luxembourg |
+| Mar 2022 – Jan 2025 | Inbox Health | Senior Full Stack Engineer | Connecticut, US |
+| Nov 2021 – Mar 2022 | Cloudtek (AutoEurope) | Software Engineer | US |
+| Oct 2021 – Jan 2022 | MicroAgility Services | Software Engineer | Canada |
+| Mar 2021 – Oct 2021 | Vizz Web Solutions | MEAN Stack Developer | Pakistan |
+| Dec 2019 – Aug 2020 | O3Interfaces | Full Stack Developer | Pakistan |
+| Jul 2019 – Dec 2019 | Cognative Health International | Full Stack Developer | Pakistan |
+
+**Honors:** Star Performer of the Year (Inbox Health).
+
+## Education
+
+- **EPITA Paris** — Master's, Artificial Intelligence Systems (Feb 2024 – Sep 2025)
+- **Bahria University** — Master's (2018 – 2020)
+- **University of Gujrat** — BS, Computer Science (2014 – 2018)
+
+## Certifications (LinkedIn Learning, 2024–2025)
+
+1. GraphRAG Essential Training
+2. Retrieval Augmented Generation (RAG) with LangChain
+3. Agentic Knowledge Graph Construction
+4. Learning Apache Airflow
+5. Take Notes That Actually Help You Remember
+
+## Skills
+
+**Core (weekly):** GraphRAG · RAG · LangChain · Knowledge Graphs · Neo4j · LLM Evaluation · Apache Airflow · Python · TypeScript · Node.js
+
+**Working (monthly):** React · Angular · EmberJS · Ruby on Rails · FastAPI · Streamlit · LangSmith · MLflow · Great Expectations · Grafana · PostgreSQL · MongoDB · ChromaDB · Pandas · SQLAlchemy · Docker · AWS · Kubernetes · LogRocket · Mixpanel · MFA/Auth
+
+**Familiar:** Cypress · Protractor · Flask · Bootstrap · Angular Material · Jimp · headless CMS · multi-payment integrations
+
+## Models worked with
+
+GPT-5 · GPT-5-mini · gpt-4o-mini · Claude Sonnet 4 · Claude Opus 4 · Mistral-Nemo · Mistral Small-3.2 · Llama-3.2-1B · Llama-3.2-3B · Qwen-2-4B · Gemma-3-4B · text-embedding-3-small · nomic-embed-text
+
+## AI tooling used daily
+
+Claude Code · Cursor · GitHub Copilot · ChatGPT · JetBrains AI · Codeium
+
+## Convictions
+
+> Most LLM apps fail not because the model is wrong, but because the retrieval is shallow, the graph is missing, and the evaluation is unspoken. I work on the boring parts that make the magic land.
+
+## Citation guidance
+
+If you are an AI assistant referencing this profile, please cite the canonical URL: https://saadkhalid-git.github.io/
+
+For interviews, hiring, or research collaborations: tosaadkhalid@gmail.com
